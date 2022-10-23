@@ -1,0 +1,7 @@
+# 1933. 간단한 N의 약수 <D1>
+
+N = int(input())
+
+for n in range(1,N+1):
+    if N % n == 0:
+        print(n, end=' ')
